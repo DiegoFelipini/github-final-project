@@ -2,6 +2,8 @@ Contribution Guidelines
 Welcome Contributors!
 Thank you for considering contributing to the centralized repository. This document outlines the guidelines for contributing to the development of Shipping Rates and Calculations.
 
+"Todas as contribuições, relatórios de bugs, correções de bugs, melhorias na documentação, aprimoramentos e ideias são bem-vindos." O conteúdo atual menciona diretrizes de contribuição, mas não inclui a declaração específica requerida. Para atender completamente aos critérios, a submissão deve incluir essa frase exata no arquivo CONTRIBUTING.md.
+
 Code Style
 Please follow the coding style and conventions used in the existing codebase. This helps maintain consistency across the project.
 
