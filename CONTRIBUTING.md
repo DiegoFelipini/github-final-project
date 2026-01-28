@@ -1,22 +1,19 @@
-Contribution Guidelines
-Welcome Contributors!
-Thank you for considering contributing to the centralized repository. This document outlines the guidelines for contributing to the development of Shipping Rates and Calculations.
+# Contributing to Simple Interest Calculator
 
-"Todas as contribuições, relatórios de bugs, correções de bugs, melhorias na documentação, aprimoramentos e ideias são bem-vindos." O conteúdo atual menciona diretrizes de contribuição, mas não inclui a declaração específica requerida. Para atender completamente aos critérios, a submissão deve incluir essa frase exata no arquivo CONTRIBUTING.md.
+Todas as contribuições, relatórios de bugs, correções de bugs, melhorias na documentação, aprimoramentos e ideias são bem-vindos.
 
-Code Style
-Please follow the coding style and conventions used in the existing codebase. This helps maintain consistency across the project.
+## Como contribuir
 
-Documentation
-Ensure that your contributions are well-documented. Include comments in your code where necessary and provide a clear and concise description of your changes in the pull request.
+### Relatando Bugs
+* Verifique se o erro já não foi relatado nas "Issues".
+* Caso contrário, abra uma nova issue descrevendo o problema.
 
-Testing
-Before submitting a pull request, make sure your changes have been tested thoroughly. Include relevant test cases and ensure that existing tests pass.
+### Fluxo de Trabalho (Pull Requests)
+1. Faça um Fork do projeto.
+2. Crie uma branch para sua modificação (`git checkout -b feature/nova-melhoria`).
+3. Faça o commit de suas alterações (`git commit -m 'Adicionando melhoria'`).
+4. Envie para o seu repositório (`git push origin feature/nova-melhoria`).
+5. Abra um Pull Request para este repositório original.
 
-Issue Tracker
-Check the issue tracker for any open issues or feature requests. If you're working on something, please comment on the issue to let others know.
-
-Code Review
-All contributions will go through a code review process. Be open to feedback and be willing to make changes if necessary. Code reviews help maintain code quality and consistency.
-
-Thank you for your contribution!
+## Código de Conduta
+Ao contribuir, você concorda em seguir o nosso [Código de Conduta](CODE_OF_CONDUCT.md).
