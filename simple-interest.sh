@@ -1,21 +1,33 @@
 bash simple-interest.sh
 
 
-# Shipping Cost Calculator
+#!/bin/bash
+# Este script calcula juros simples.
+# Fórmula: I = P * R * T / 100
 
-## Input package weight and shipping rate
-weight = float(input("Enter the package weight in kilograms: "))
-rate = float(input("Enter the shipping rate per kilogram: "))
+echo "------------------------------------------"
+echo "   Calculadora de Juros Simples (Bash)    "
+echo "------------------------------------------"
 
-## Calculate shipping cost
-shipping_cost = weight * rate
+# Solicita o Valor Principal
+echo "Digite o valor principal (P):"
+read p
 
-## Display the result
-print(f"Shipping Cost: {shipping_cost} USD")
+# Solicita a Taxa de Juros Anual
+echo "Digite a taxa de juros anual (em %):"
+read r
 
-# File added by Sklup55
+# Solicita o Período de Tempo
+echo "Digite o período de tempo (em anos):"
+read t
 
- # Here is a new update by Sklup55
+# Realiza o cálculo usando a ferramenta 'expr' ou aritmética do shell
+# Nota: O Bash lida nativamente apenas com inteiros.
+s=$(echo "scale=2; $p * $r * $t / 100" | bc -l 2>/dev/null || expr $p \* $r \* $t / 100)
+
+echo "------------------------------------------"
+echo "O valor dos juros simples é: $s"
+echo "------------------------------------------"
 
 # LogisticsShippingRates
 Please consider the below factors while contributing
